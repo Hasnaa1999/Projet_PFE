@@ -1,0 +1,10 @@
+{
+  "dashboardTitle": "Test",
+  "uid": "a6af1c49-ba8c-44a3-9e39-421ad0ca1f7d",
+  "refreshInterval": "300",
+  "panels": [],
+  "layout": {
+    "columns": 12,
+    "widgetPositions": []
+  }
+}

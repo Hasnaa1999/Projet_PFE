@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@date-io/date-fns": "^3.0.0",
+    "@mui/x-date-pickers": "^7.1.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "moment": "^2.30.1"
+  }
+}
