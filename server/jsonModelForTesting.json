@@ -1,10 +1,976 @@
 {
-  "dashboardTitle": "test",
-  "uid": "default-dashboard-id",
+  "dashboardTitle": "Comparaison consommation Agence",
+  "uid": "z7fxdswtf",
   "refreshInterval": "300",
-  "panels": [],
+  "panels": [
+    {
+      "id": "widget-0",
+      "type": "bar",
+      "data": [
+        {
+          "name": "Total Energy Consumption Phase A",
+          "metric_id": 60
+        },
+        {
+          "name": "Total Energy Consumption Phase A",
+          "metric_id": 73
+        },
+        {
+          "name": "Total Energy Consumption Phase A",
+          "metric_id": 88
+        }
+      ],
+      "title": "Chart for selected metrics",
+      "timeframeData": {
+        "timeframe": "Day",
+        "fromDate": "2024-07-21T09:21:55.580Z",
+        "toDate": "2024-07-22T09:21:55.580Z"
+      },
+      "summaryTable": true
+    },
+    {
+      "id": "widget-1",
+      "type": "pie",
+      "data": {
+        "title": "Pie for Selected Metrics",
+        "metric": [
+          {
+            "name": "Total Energy Consumption",
+            "value": 19939.52
+          },
+          {
+            "name": "Total Energy Consumption",
+            "value": 19791.6
+          },
+          {
+            "name": "Total Energy Consumption",
+            "value": 19973.86
+          }
+        ],
+        "tintColor": "",
+        "labelColor": "",
+        "titleColor": "",
+        "fieldGroups": [
+          {
+            "selectedDevice": "Energy Meter Agence 1",
+            "selectedMetric": "Total Energy Consumption",
+            "lastMetricValue": 19939.52,
+            "metricName": "Total Energy Consumption",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 46
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 47
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 48
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 49
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 50
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 51
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 53
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 56
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 54
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 52
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 55
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 60
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 59
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 58
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 57
+              }
+            ]
+          },
+          {
+            "selectedDevice": "Energy Meter Agence 2",
+            "selectedMetric": "Total Energy Consumption",
+            "lastMetricValue": 19791.6,
+            "metricName": "Total Energy Consumption",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 61
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 62
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 63
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 64
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 65
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 66
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 67
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 68
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 69
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 70
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 72
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 73
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 74
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 75
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 71
+              }
+            ]
+          },
+          {
+            "selectedDevice": "Energy Meter Agence 3",
+            "selectedMetric": "Total Energy Consumption",
+            "lastMetricValue": 19973.86,
+            "metricName": "Total Energy Consumption",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 76
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 77
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 78
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 79
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 80
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 81
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 82
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 83
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 84
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 85
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 86
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 88
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 89
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 90
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 87
+              }
+            ]
+          }
+        ]
+      },
+      "x": 6,
+      "y": 0,
+      "w": 6,
+      "h": 3,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-2",
+      "type": "line",
+      "data": [
+        {
+          "name": "Amperage Phase A",
+          "metric_id": 49
+        },
+        {
+          "name": "Amperage Phase A",
+          "metric_id": 64
+        },
+        {
+          "name": "Amperage Phase A",
+          "metric_id": 79
+        }
+      ],
+      "title": "Chart for selected metrics",
+      "timeframeData": {
+        "timeframe": "Day",
+        "fromDate": "2024-07-21T09:24:32.001Z",
+        "toDate": "2024-07-22T09:24:32.001Z"
+      },
+      "summaryTable": true
+    },
+    {
+      "id": "widget-3",
+      "type": "line",
+      "data": [
+        {
+          "name": "Voltage Phase A",
+          "metric_id": 46
+        },
+        {
+          "name": "Voltage Phase A",
+          "metric_id": 61
+        },
+        {
+          "name": "Voltage Phase A",
+          "metric_id": 76
+        }
+      ],
+      "title": "Chart for selected metrics",
+      "timeframeData": {
+        "timeframe": "Day",
+        "fromDate": "2024-07-21T09:26:21.698Z",
+        "toDate": "2024-07-22T09:26:21.698Z"
+      },
+      "summaryTable": true
+    },
+    {
+      "id": "widget-4",
+      "type": "headline",
+      "data": {
+        "chartTitle": "Agence 1",
+        "textColor": "#299130",
+        "centerText": false,
+        "textSize": 24,
+        "tintColor": ""
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-5",
+      "type": "headline",
+      "data": {
+        "chartTitle": "Agence 2",
+        "textColor": "#E4D018",
+        "centerText": false,
+        "textSize": 24,
+        "tintColor": ""
+      },
+      "x": 6,
+      "y": 26,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-6",
+      "type": "slider",
+      "data": {
+        "title": "",
+        "sliderValue": 6.354,
+        "valueFrom": 0,
+        "valueTo": "50",
+        "stepValue": 1,
+        "unit": "",
+        "tintColor": "",
+        "highlightColor": "",
+        "showRange": false,
+        "orientation": "horizontal",
+        "fieldGroups": [
+          {
+            "selectedDevice": "Energy Meter Agence 1",
+            "selectedMetric": "Active Power Phase A",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 46
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 47
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 48
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 49
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 50
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 51
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 53
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 56
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 54
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 52
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 55
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 60
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 59
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 58
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 57
+              }
+            ],
+            "metricName": "Active Power Phase A",
+            "lastMetricValue": 6.354
+          }
+        ],
+        "gaugeSettings": {
+          "gaugeMin": 0,
+          "gaugeMax": "50",
+          "gaugeAVG": 25,
+          "unit": "",
+          "sliderValue": 6.354
+        },
+        "showGaugeConfig": true
+      },
+      "x": 6,
+      "y": 26,
+      "w": 6,
+      "h": 4,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-7",
+      "type": "slider",
+      "data": {
+        "title": "",
+        "sliderValue": 10.887,
+        "valueFrom": 0,
+        "valueTo": 100,
+        "stepValue": 1,
+        "unit": "",
+        "tintColor": "",
+        "highlightColor": "",
+        "showRange": false,
+        "orientation": "horizontal",
+        "fieldGroups": [
+          {
+            "selectedDevice": "Energy Meter Agence 2",
+            "selectedMetric": "Active Power Phase A",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 61
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 62
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 63
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 64
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 65
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 66
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 67
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 68
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 69
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 70
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 72
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 73
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 74
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 75
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 71
+              }
+            ],
+            "metricName": "Active Power Phase A",
+            "lastMetricValue": 10.887
+          }
+        ],
+        "gaugeSettings": {
+          "gaugeMin": 0,
+          "gaugeMax": "50",
+          "gaugeAVG": 25,
+          "unit": "",
+          "sliderValue": 10.887
+        },
+        "showGaugeConfig": true
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 4,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-8",
+      "type": "headline",
+      "data": {
+        "chartTitle": "Agence 3",
+        "textColor": "#1665B4",
+        "centerText": false,
+        "textSize": 24,
+        "tintColor": ""
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-9",
+      "type": "slider",
+      "data": {
+        "title": "",
+        "sliderValue": 11.873,
+        "valueFrom": 0,
+        "valueTo": "50",
+        "stepValue": 1,
+        "unit": "",
+        "tintColor": "",
+        "highlightColor": "",
+        "showRange": false,
+        "orientation": "horizontal",
+        "fieldGroups": [
+          {
+            "selectedDevice": "Energy Meter Agence 3",
+            "selectedMetric": "Active Power Phase A",
+            "availableMetrics": [
+              {
+                "name": "Voltage Phase A",
+                "value_type": "number",
+                "metric_id": 76
+              },
+              {
+                "name": "Voltage Phase B",
+                "value_type": "number",
+                "metric_id": 77
+              },
+              {
+                "name": "Voltage Phase C",
+                "value_type": "number",
+                "metric_id": 78
+              },
+              {
+                "name": "Amperage Phase A",
+                "value_type": "number",
+                "metric_id": 79
+              },
+              {
+                "name": "Amperage Phase B",
+                "value_type": "number",
+                "metric_id": 80
+              },
+              {
+                "name": "Amperage Phase C",
+                "value_type": "number",
+                "metric_id": 81
+              },
+              {
+                "name": "3 Phase Current",
+                "value_type": "number",
+                "metric_id": 82
+              },
+              {
+                "name": "Active Power Phase A",
+                "value_type": "number",
+                "metric_id": 83
+              },
+              {
+                "name": "Active Power Phase B",
+                "value_type": "number",
+                "metric_id": 84
+              },
+              {
+                "name": "Active Power Phase C",
+                "value_type": "number",
+                "metric_id": 85
+              },
+              {
+                "name": "Total Active Power",
+                "value_type": "number",
+                "metric_id": 86
+              },
+              {
+                "name": "Total Energy Consumption Phase A",
+                "value_type": "number",
+                "metric_id": 88
+              },
+              {
+                "name": "Total Energy Consumption Phase B",
+                "value_type": "number",
+                "metric_id": 89
+              },
+              {
+                "name": "Total Energy Consumption Phase C",
+                "value_type": "number",
+                "metric_id": 90
+              },
+              {
+                "name": "Total Energy Consumption",
+                "value_type": "number",
+                "metric_id": 87
+              }
+            ],
+            "metricName": "Active Power Phase A",
+            "lastMetricValue": 11.873
+          }
+        ],
+        "gaugeSettings": {
+          "gaugeMin": 0,
+          "gaugeMax": 100,
+          "gaugeAVG": 50,
+          "unit": "",
+          "sliderValue": 11.873
+        },
+        "showGaugeConfig": true
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 4,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-10",
+      "type": "value",
+      "data": {
+        "title": "Value for Selected Metrics",
+        "metric": {
+          "name": "Amperage Phase A",
+          "value": 16.66,
+          "metric_id": 49
+        },
+        "lastUpdate": "2024-07-22T09:40:15.565Z",
+        "tintColor": "",
+        "textColor": "#158811",
+        "valueColor": "#158811",
+        "hideLastUpdate": false
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-11",
+      "type": "value",
+      "data": {
+        "title": "Value for Selected Metrics",
+        "metric": {
+          "name": "Amperage Phase A",
+          "value": 16.66,
+          "metric_id": 49
+        },
+        "lastUpdate": "2024-07-22T09:41:17.522Z",
+        "tintColor": "",
+        "textColor": "#EBDD16",
+        "valueColor": "#EBDD16",
+        "hideLastUpdate": false
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    },
+    {
+      "id": "widget-13",
+      "type": "value",
+      "data": {
+        "title": "Value for Selected Metrics",
+        "metric": {
+          "name": "Amperage Phase A",
+          "value": 16.66,
+          "metric_id": 49
+        },
+        "lastUpdate": "2024-07-22T09:42:39.609Z",
+        "tintColor": "",
+        "textColor": "#1075DA",
+        "valueColor": "#1075DA",
+        "hideLastUpdate": false
+      },
+      "x": 6,
+      "y": 23,
+      "w": 6,
+      "h": 2,
+      "isDraggable": true,
+      "isResizable": true
+    }
+  ],
   "layout": {
     "columns": 12,
-    "widgetPositions": []
+    "widgetPositions": [
+      {
+        "w": 6,
+        "h": 14,
+        "x": 0,
+        "y": 0,
+        "i": "widget-0",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 6,
+        "h": 9,
+        "x": 6,
+        "y": 0,
+        "i": "widget-1",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 6,
+        "h": 14,
+        "x": 6,
+        "y": 9,
+        "i": "widget-2",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 6,
+        "h": 14,
+        "x": 0,
+        "y": 14,
+        "i": "widget-3",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 3,
+        "x": 0,
+        "y": 28,
+        "i": "widget-4",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 3,
+        "x": 4,
+        "y": 28,
+        "i": "widget-5",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 7,
+        "x": 0,
+        "y": 31,
+        "i": "widget-6",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 7,
+        "x": 4,
+        "y": 31,
+        "i": "widget-7",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 3,
+        "x": 8,
+        "y": 28,
+        "i": "widget-8",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 7,
+        "x": 8,
+        "y": 31,
+        "i": "widget-9",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 38,
+        "i": "widget-10",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 5,
+        "x": 4,
+        "y": 38,
+        "i": "widget-11",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      },
+      {
+        "w": 4,
+        "h": 5,
+        "x": 8,
+        "y": 38,
+        "i": "widget-13",
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
+      }
+    ]
   }
 }
