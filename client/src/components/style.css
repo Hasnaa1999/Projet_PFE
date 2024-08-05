@@ -1,0 +1,12 @@
+.dashboard-hover:hover{
+    background-color: #e9eeef;
+}
+.dashboard-hover:focus{
+    background-color: #2cacdba7;
+} 
+.dashboard-hover:active {
+    background-color: #2cacdba7; /* La couleur de fond souhaitée */
+    /* Autres styles au besoin */
+  }
+
+  

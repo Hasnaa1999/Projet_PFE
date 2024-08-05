@@ -1,0 +1,17 @@
+export const WidgetTypes = {
+    LINE: "line",
+    AREA: "area",
+    BAR: "bar",
+    HISTOGRAM: "histogram",
+    HEADLINE: "headline",
+    BOOLEAN: "boolean",
+    VALUE: "value",
+    IMAGE: "image",
+    TEXT: "text",
+    MAP: "map",
+    SLIDER: "slider",
+    IFRAME: "iframe",
+    IMAGEMAP:"imageMap",
+    TABLE:"table",
+    PIE:"pie",
+  };

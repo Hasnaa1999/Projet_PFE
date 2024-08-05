@@ -1,0 +1,281 @@
+
+{ 
+    "devices":[
+       {
+           "name": "Energy Meter Agence 1",
+           "location": {
+               "lat": 33.577453,
+               "long": -7.637609
+           },
+           "metrics": [
+               {
+                   "name" : "Voltage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 46
+               },
+               {
+                   "name" : "Voltage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 47
+               },
+               {
+                   "name" : "Voltage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 48
+               },
+               {
+                   "name": "Amperage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 49
+               },
+               {
+                   "name" : "Amperage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 50
+               },
+               {
+                   "name" : "Amperage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 51
+               },
+               {
+                   "name" : "3 Phase Current",
+                   "value_type": "number",
+                   "metric_id" : 53
+               },
+               {
+                   "name" : "Active Power Phase A",
+                   "value_type": "number",
+                   "metric_id" : 56
+               },
+               {
+                   "name" : "Active Power Phase B",
+                   "value_type": "number",
+                   "metric_id" : 54
+               },
+               {
+                   "name" : "Active Power Phase C",
+                   "value_type": "number",
+                   "metric_id" : 52
+               },
+               {
+                   "name" : "Total Active Power",
+                   "value_type": "number",
+                   "metric_id" : 55
+               },
+               {
+                   "name" : "Total Energy Consumption Phase A",
+                   "value_type": "number",
+                   "metric_id" : 60
+               },
+               {
+                   "name" : "Total Energy Consumption Phase B",
+                   "value_type": "number",
+                   "metric_id" : 59
+               },
+               {
+                   "name" : "Total Energy Consumption Phase C",
+                   "value_type": "number",
+                   "metric_id" : 58
+               },
+               {
+                   "name" : "Total Energy Consumption",
+                   "value_type": "number",
+                   "metric_id" : 57
+               }
+           ]
+       },
+       {
+           "name": "Energy Meter Agence 2",
+           "location": {
+               "lat": 33.567591,
+               "long": -7.679323
+           },
+           "metrics": [
+               {
+                   "name" : "Voltage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 61
+               },
+               {
+                   "name" : "Voltage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 62
+               },
+               {
+                   "name" : "Voltage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 63
+               },
+               {
+                   "name": "Amperage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 64
+               },
+               {
+                   "name" : "Amperage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 65
+               },
+               {
+                   "name" : "Amperage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 66
+               },
+               {
+                   "name" : "3 Phase Current",
+                   "value_type": "number",
+                   "metric_id" : 67
+               },
+               {
+                   "name" : "Active Power Phase A",
+                   "value_type": "number",
+                   "metric_id" : 68
+               },
+               {
+                   "name" : "Active Power Phase B",
+                   "value_type": "number",
+                   "metric_id" : 69
+               },
+               {
+                   "name" : "Active Power Phase C",
+                   "value_type": "number",
+                   "metric_id" : 70
+               },
+               {
+                   "name" : "Total Active Power",
+                   "value_type": "number",
+                   "metric_id" : 72
+               },
+               {
+                   "name" : "Total Energy Consumption Phase A",
+                   "value_type": "number",
+                   "metric_id" : 73
+               },
+               {
+                   "name" : "Total Energy Consumption Phase B",
+                   "value_type": "number",
+                   "metric_id" : 74
+               },
+               {
+                   "name" : "Total Energy Consumption Phase C",
+                   "value_type": "number",
+                   "metric_id" : 75
+               },
+               {
+                   "name" : "Total Energy Consumption",
+                   "value_type": "number",
+                   "metric_id" : 71
+               }
+           ]
+       },
+       {
+           "name": "Energy Meter Agence 3",
+           "location": {
+               "lat": 33.537970,
+               "long": -7.617696
+           },
+           "metrics": [
+               {
+                   "name" : "Voltage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 76
+               },
+               {
+                   "name" : "Voltage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 77
+               },
+               {
+                   "name" : "Voltage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 78
+               },
+               {
+                   "name": "Amperage Phase A",
+                   "value_type": "number",
+                   "metric_id" : 79
+               },
+               {
+                   "name" : "Amperage Phase B",
+                   "value_type": "number",
+                   "metric_id" : 80
+               },
+               {
+                   "name" : "Amperage Phase C",
+                   "value_type": "number",
+                   "metric_id" : 81
+               },
+               {
+                   "name" : "3 Phase Current",
+                   "value_type": "number",
+                   "metric_id" : 82
+               },
+               {
+                   "name" : "Active Power Phase A",
+                   "value_type": "number",
+                   "metric_id" : 83
+               },
+               {
+                   "name" : "Active Power Phase B",
+                   "value_type": "number",
+                   "metric_id" : 84
+               },
+               {
+                   "name" : "Active Power Phase C",
+                   "value_type": "number",
+                   "metric_id" : 85
+               },
+               {
+                   "name" : "Total Active Power",
+                   "value_type": "number",
+                   "metric_id" : 86
+               },
+               {
+                   "name" : "Total Energy Consumption Phase A",
+                   "value_type": "number",
+                   "metric_id" : 88
+               },
+               {
+                   "name" : "Total Energy Consumption Phase B",
+                   "value_type": "number",
+                   "metric_id" : 89
+               },
+               {
+                   "name" : "Total Energy Consumption Phase C",
+                   "value_type": "number",
+                   "metric_id" : 90
+               },
+               {
+                   "name" : "Total Energy Consumption",
+                   "value_type": "number",
+                   "metric_id" : 87
+               }
+           ]
+       },
+       {
+           "name": "Dragino Door Sensor",
+           "location": {
+               "lat": null,
+               "long": null
+           },
+           "metrics": [
+               {
+                   "name" : "Door Open",
+                   "value_type": "boolean",
+                   "metric_id" : 105
+               }, 
+               {
+                   "name" : "Door Open Count",
+                   "value_type": "number",
+                   "metric_id" : 106
+               },
+               {
+                   "name" : "Battery Voltage",
+                   "value_type": "number",
+                   "metric_id" : 107
+               }
+           ]
+       }
+   ]
+}
